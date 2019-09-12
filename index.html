@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>KMF Dental</title>
+  <title>FrontEndOnFront</title>
 
   <!-- CSS  -->
   
@@ -16,6 +16,9 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/materialize-style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- Icons -->
   <link href="assets/FontAwesome/css/all.css" rel="stylesheet">
 
@@ -25,25 +28,108 @@
 
 <body>
 
-  <!-- First Paralax Banner + Header for site -->
-  <div id="index-banner" class="parallax-container">
+  <!-- 1. First Paralax Banner + Header for site -->
+  <div id="index-banner" class="parallax-container parallax-container-main">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-
-        <h1 class="companyNameText"><i class="siteLogo fas fa-tooth headerLogo"></i> KMF Dental</h1>
-        <h1 class="welcome header center white-text">Welcome to KMF Dental</h1>
-        <div class="row center">
-          <h5 class="header col s12 light companySloganText">Keeping you smiling for many years to come!</h5>
-        </div>
-        
+        <h1 class="companyNameText header" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" id="logo"><i class="siteLogo fas fa-road"></i> Front End On Front</h1>
         <br><br>
+
+        <h1 class="welcome header center white-text" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1200" id="slogan1">Modern | Elegant | Sophisticated </h1>
+        <br><br>
+        <h1 class="welcome header center white-text"  data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2200" id="slogan2"> Front End UX for the Current Generation </h1>
+
+        
 
       </div>
     </div>
 
-    <div class="parallax"><img src="assets/images/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="assets/images/LightsTall.jpg" alt="Unsplashed background img 1"></div>
   </div>
+
+  <!-- 2. Info 1 -->
+  <div class="container" data-aos="fade-right" data-aos-duration="3000">
+    <div class="section">
+
+        <div class="row">
+            <div class="col s12 center">
+              <h3><i class="mdi-content-send brown-text"></i></h3>
+
+              <h4>What is this place?</h4>
+              <p class="center-align">We ("Or should I say I") make modernized front end static UX for companies who want to express their buisness in a more modern way!</p>
+            </div>
+          </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper" id="Directions">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h1 class="header col s12 light">Where to Find us</h1>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="assets/images/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+
+  <!-- 4. Info 2 -->
+  <div class="container">
+      <div class="section">
+  
+          <div class="row">
+              <div class="col s12 center">
+                <h3><i class="mdi-content-send brown-text"></i></h3>
+  
+                <h4>Why should I have a modern site?</h4>
+                <p class="center-align">Let's be honest for a minute... In today's society, the Internet basically runs the world. </p>
+                <p class="center-align question"> What should you eat?</p>
+                <p class="center-align question"> Where do I go to fix my laptop? </p>
+                <p class="center-align question"> Whats going on tonight in the city?</p>
+                <p class="center-align"> Look it up! We use the internet to find places that might suit our needs! Having a good website is crutial to maintaining good buisness!</p>
+                <p class="center-align"> A website is basically a first impression of a comapny. If the website is intriguing to customers, then they are more likely to give you a chance!</p>
+                <br><br>
+              </div>
+            </div>
+  
+      </div>
+    </div>
+
+  <section class="scrollspy" id="Team">
+      <div class="parallax-container valign-wrapper" id="Team">
+          <div class="section no-pad-bot">
+            <div class="container">
+              <div class="row center">
+                <h1 class="header col s12 light">Our Team</h1>
+              </div>
+            </div>
+          </div>
+          <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 2"></div>
+      </div>
+      
+      <div class="container">
+          <div class="section">
+      
+            <div class="row">
+              <div class="col s12 center">
+                <h3><i class="mdi-content-send brown-text"></i></h3>
+                <h4>Contact Us</h4>
+                <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id
+                  nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies
+                  eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et
+                  pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed.
+                  Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam
+                  eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                  posuere cubilia Curae;</p>
+              </div>
+            </div>
+      
+          </div>
+      </div>
+  </section>
 
   <!-- Info Section and Links Header -->
   <div class="container">
@@ -213,7 +299,9 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 

@@ -5,13 +5,26 @@
 .companyNameText {
     font-size: 40px !important;
     font-family: 'Fredoka One', cursive;
+    
 }
-
 .welcome {
     font-size: 30px !important;
     font-family: 'Fredoka One', cursive;
 }
+/* .header{
+    opacity: 0;
+} */
 .companySloganText {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
+.question {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parallax-container-main {
+    min-height: 1000px;
+    max-height: 1080px;
+  }
+     
